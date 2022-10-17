@@ -6,7 +6,9 @@
     <link href="./dist/output.css" rel="stylesheet" />
   </head>
   <body class="bg-[#202124] flex-col flex justify-between h-screen">
-    <header class="flex gap-5 w-fit mt-3 ml-auto items-center px-5">
+    <header
+      class="flex gap-5 w-fit mt-3 ml-auto items-center px-5 sm:px-2 sm:ml-auto"
+    >
       <div class="flex gap-5 text-sm text-slate-300">
         <p>Gmail</p>
         <p>Images</p>
@@ -28,17 +30,19 @@
       />
     </header>
 
-    <div class="flex flex-col justify-center items-center gap-5 -mt-60 ">
+    <div
+      class="flex flex-col justify-center items-center gap-5 -mt-60 sm:-mt-56 sm:w-full sm:px-5"
+    >
       <div>
         <img
           src="./image/googleIcon.png"
           alt="Logo"
-          class="w-[22rem] h-[8rem]"
+          class="w-[22rem] h-[8rem] sm:w-40 sm:h-14 md:w-[22rem] md:h-[8rem]"
         />
       </div>
 
       <div
-        class="border rounded-full w-[45rem] flex justify-center items-center py-2 px-4 border-gray-500 md:w-[40rem] sm:w-[2rem]"
+        class="border rounded-full sm:w-full w-[45rem] flex justify-center items-center py-2 sm:py-1 sm:px-2 px-4 border-gray-500 md:w-[40rem]"
       >
         <svg
           focusable="false"
@@ -53,7 +57,7 @@
         </svg>
         <input
           type="text"
-          class="bg-transparent w-full outline-none text-white px-6"
+          class="bg-transparent w-full outline-none text-white px-6 sm:w-full"
         />
         <svg
           class="w-5 h-5"
@@ -75,7 +79,7 @@
             d="m12 16.93a4.97 5.25 0 0 1 -3.54 -1.55l-1.41 1.49c1.26 1.34 3.02 2.13 4.95 2.13 3.87 0 6.99-2.92 6.99-7h-1.99c0 2.92-2.24 4.93-5 4.93z"
           ></path>
         </svg>
-        <img src="./image/cam.svg" alt="" class="w-5 h-5 ml-3">
+        <img src="./image/cam.svg" alt="" class="w-5 h-5 ml-3" />
       </div>
       <div class="text-slate-300 flex gap-2 justify-center items-center">
         <button class="bg-white/20 py-2 px-4 rounded-sm text-sm">
@@ -104,21 +108,21 @@
       </p>
     </div>
 
-    <footer class="text-slate-300 text-sm flex flex-col bg-[#171717]">
-      <div class="border-b border-gray-600 text-[15px] px-[30px] py-[15px] text-xl">
+    <footer class="text-slate-300 flex flex-col bg-[#171717]">
+      <div
+        class="border-b border-gray-600 text-[15px] px-[30px] py-[15px] text-xl"
+      >
         <p>Rwanda</p>
       </div>
-      <div
-        class="flex justify-between w-full px-[30px] py-[15px] text-sm md:grid md:grid-cols-1 md:justify-center md:gap-3"
-      >
-        <ul class="flex items-center gap-3 md:justify-center text-xl">
+      <div class="flex justify-between w-full px-[30px] py-[15px] text-sm sm:flex-col">
+        <ul class="flex items-center gap-3 sm:justify-center text-xl sm:flex-wrap">
           <li>About</li>
           <li>Advertising</li>
           <li>Business</li>
           <li>How Search works</li>
         </ul>
 
-        <ul class="flex items-center gap-6 md:justify-center text-xl">
+        <ul class="flex items-center gap-6 sm:justify-center text-xl sm:py-5 sm:flex-wrap">
           <li>Privacy</li>
           <li>Terms</li>
           <li>Settings</li>
