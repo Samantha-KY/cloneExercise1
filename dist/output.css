@@ -663,6 +663,27 @@ video {
   background-color: rgb(23 23 23 / var(--tw-bg-opacity));
 }
 
+.bg-black {
+  --tw-bg-opacity: 1;
+  background-color: rgb(0 0 0 / var(--tw-bg-opacity));
+}
+
+.bg-black\/90 {
+  background-color: rgb(0 0 0 / 0.9);
+}
+
+.bg-black\/75 {
+  background-color: rgb(0 0 0 / 0.75);
+}
+
+.bg-black\/25 {
+  background-color: rgb(0 0 0 / 0.25);
+}
+
+.bg-black\/30 {
+  background-color: rgb(0 0 0 / 0.3);
+}
+
 .fill-white {
   fill: #fff;
 }
@@ -670,36 +691,6 @@ video {
 .px-5 {
   padding-left: 1.25rem;
   padding-right: 1.25rem;
-}
-
-.py-\[0\.6rem\] {
-  padding-top: 0.6rem;
-  padding-bottom: 0.6rem;
-}
-
-.px-4 {
-  padding-left: 1rem;
-  padding-right: 1rem;
-}
-
-.px-6 {
-  padding-left: 1.5rem;
-  padding-right: 1.5rem;
-}
-
-.py-2 {
-  padding-top: 0.5rem;
-  padding-bottom: 0.5rem;
-}
-
-.px-\[30px\] {
-  padding-left: 30px;
-  padding-right: 30px;
-}
-
-.py-\[15px\] {
-  padding-top: 15px;
-  padding-bottom: 15px;
 }
 
 .py-1 {
@@ -712,6 +703,56 @@ video {
   padding-right: 0.5rem;
 }
 
+.px-6 {
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
+}
+
+.py-2 {
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+}
+
+.px-4 {
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+.px-\[30px\] {
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+.py-\[15px\] {
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+
+.px-\[3rem\] {
+  padding-left: 3rem;
+  padding-right: 3rem;
+}
+
+.py-\[2rem\] {
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}
+
+.px-\[2rem\] {
+  padding-left: 2rem;
+  padding-right: 2rem;
+}
+
+.py-\[1rem\] {
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+
+.py-\[\] {
+  padding-top: ;
+  padding-bottom: ;
+}
+
 .text-sm {
   font-size: 0.875rem;
   line-height: 1.25rem;
@@ -719,6 +760,10 @@ video {
 
 .text-\[15px\] {
   font-size: 15px;
+}
+
+.text-\[1rem\] {
+  font-size: 1rem;
 }
 
 .text-slate-300 {
@@ -731,9 +776,8 @@ video {
   color: rgb(255 255 255 / var(--tw-text-opacity));
 }
 
-.text-\[\#8ab4f8\] {
-  --tw-text-opacity: 1;
-  color: rgb(138 180 248 / var(--tw-text-opacity));
+.text-sky-300\/100 {
+  color: rgb(125 211 252 / 1);
 }
 
 .outline-none {
@@ -743,10 +787,6 @@ video {
 
 .hover\:underline:hover {
   text-decoration-line: underline;
-}
-
-.hover\:decoration-\[\#8ab4f8\]:hover {
-  text-decoration-color: #8ab4f8;
 }
 
 @media (max-width: 800px) {
@@ -804,14 +844,6 @@ video {
 }
 
 @media (min-width: 1024px) {
-  .md\:h-\[6rem\] {
-    height: 6rem;
-  }
-
-  .md\:w-\[17rem\] {
-    width: 17rem;
-  }
-
   .md\:w-\[40rem\] {
     width: 40rem;
   }
